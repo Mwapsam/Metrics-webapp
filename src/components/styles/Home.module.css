@@ -1,0 +1,44 @@
+.main {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, 186px);
+}
+
+.flags {
+  width: 90%;
+  height: 80px;
+  border-radius: 6px;
+  opacity: 0.2;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 4px;
+  padding: 8px;
+  border: 1px solid;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  width: 100%;
+}
+
+.text h2 {
+    font-size: 18px;
+}
+
+.arrow {
+  text-align: end;
+}
+
+.arrowWrapper {
+  margin-left: 62%;
+}

@@ -1,0 +1,25 @@
+.nav {
+  background-color: #d9467d;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pointer {
+  color: #fff;
+  font-size: 25px;
+}
+
+.navText {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.settings {
+  color: #fff;
+  font-size: 23px;
+}
