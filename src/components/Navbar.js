@@ -3,7 +3,6 @@ import { Link, Outlet } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import { HiSearchCircle } from 'react-icons/hi';
 import styles from './styles/Navbar.module.css';
-import Header from './Header';
 
 const Navbar = () => (
   <>
@@ -17,7 +16,6 @@ const Navbar = () => (
       <HiSearchCircle className={styles.settings} />
       <Outlet />
     </nav>
-    <Header />
   </>
 );
 
