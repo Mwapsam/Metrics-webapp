@@ -1,0 +1,115 @@
+@media only screen and (max-width: 600px) {
+  .flagCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 6px #082863;
+    margin: 5%;
+  }
+
+  .flagCard img {
+    padding: 4rem;
+    border-radius: 6px;
+    opacity: 0.2;
+  }
+
+  .texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    padding: 5rem;
+    font-weight: bold;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 6px #082863;
+    margin: 5%;
+    padding: 5%;
+  }
+
+  .listItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+
+  .listItems p,
+  .listItems h3 {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .listItems h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .flagCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 6px #082863;
+    margin: 5%;
+  }
+
+  .flagCard img {
+    padding: 4rem;
+    border-radius: 6px;
+    opacity: 0.9;
+  }
+
+  .texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    padding: 5rem;
+    font-weight: bold;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 6px #082863;
+    margin: 5%;
+    padding: 5%;
+  }
+
+  .listItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .listItems:nth-child(2n) {
+    background-color: #082863;
+  }
+
+  .listItems p,
+  .listItems h3 {
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5% 2%;
+  }
+
+  .listItems h3 {
+    font-size: 20px;
+  }
+}
