@@ -2,7 +2,7 @@
 
 # Covid Tracker
 
-> Covid-19 Tracker is a mobile web application that provide the user the new cases of Covid-19 for each continent and individual coutries for that particular continent.
+> This is a Covid-19 Tracker mobile web application that provides the user with the new cases of Covid-19 for each continent and individual countries for a particular continent.
 
 The web app consists of Home, Countries List, the Continent List and Details pages:
 
