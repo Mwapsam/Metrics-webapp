@@ -1,11 +1,17 @@
 const url = 'https://disease.sh/v3/covid-19/countries';
-const GET_COVID_DATA = 'GET_COVID_DATA';
+export const GET_COVID_DATA = 'GET_COVID_DATA';
+export const GET_STATE = 'GET_STATE';
 
 const initialState = [];
 
-const loadcovid = (covid) => ({
+export const getInitialState = (payload) => ({
+  type: GET_STATE,
+  payload,
+});
+
+const loadcovid = (payload) => ({
   type: GET_COVID_DATA,
-  payload: covid,
+  payload,
 });
 
 export const getcovid = () => async (dispatch) => {
@@ -54,11 +60,15 @@ export const getcovid = () => async (dispatch) => {
   }
 };
 
-export const covidReducer = (state = initialState, action) => {
+const covidReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_COVID_DATA:
       return { ...state, covid: action.payload };
+    case GET_STATE:
+      return [...state];
     default:
       return state;
   }
 };
+
+export default covidReducer;

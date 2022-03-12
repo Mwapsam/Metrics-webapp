@@ -1,15 +1,16 @@
 .nav {
-  background-color: #d9467d;
+  background-color: #082863;
   width: 100%;
   height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .pointer {
   color: #fff;
   font-size: 25px;
+  margin: 23px;
 }
 
 .navText {
@@ -22,4 +23,5 @@
 .settings {
   color: #fff;
   font-size: 23px;
+  margin: 22px;
 }

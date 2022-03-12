@@ -6,9 +6,13 @@ const Header = () => (
   <>
     <div className={styles.image}>
       <img src={image} alt="europe" />
-      <h1 className={styles.text}>Europe</h1>
+      <h1 className={styles.text}>
+        World Covid 19 Cases
+        {' '}
+        <br />
+        Updated Reports
+      </h1>
     </div>
   </>
 );
-
 export default Header;

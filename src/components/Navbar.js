@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
-import { HiSearchCircle } from 'react-icons/hi';
+import { AiOutlineSetting } from 'react-icons/ai';
 import styles from './styles/Navbar.module.css';
 
 const Navbar = () => (
@@ -13,7 +13,7 @@ const Navbar = () => (
       <Link to="/" className={styles.navText}>
         Covid Data
       </Link>
-      <HiSearchCircle className={styles.settings} />
+      <AiOutlineSetting className={styles.settings} />
       <Outlet />
     </nav>
   </>

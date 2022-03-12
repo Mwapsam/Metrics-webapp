@@ -1,3 +1,8 @@
+@use postcss-color-function;
+@use postcss-nested;
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +10,6 @@
 }
 
 body {
-  background-color: #eb5091;
+  background-color: #3b5a99;
+  font-family: 'Raleway', sans-serif;
 }
