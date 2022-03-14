@@ -3,21 +3,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     box-shadow: 0 0 6px #082863;
     margin: 5%;
   }
 
   .flagCard img {
-    padding: 4rem;
-    border-radius: 6px;
-    opacity: 0.2;
+    border-radius: 9px;
+    padding: 1rem 4rem 9rem 2rem;
   }
 
   .texts {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 41%;
+    left: 44%;
     transform: translate(-50%, -50%);
     background: transparent;
     width: 100%;
@@ -41,6 +40,11 @@
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    padding: 10px;
+  }
+
+  .listItems:nth-child(2n) {
+    background-color: #082863;
   }
 
   .listItems p,
@@ -50,7 +54,7 @@
   }
 
   .listItems h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
