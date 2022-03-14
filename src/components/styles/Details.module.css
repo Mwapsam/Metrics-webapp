@@ -10,12 +10,12 @@
 
   .flagCard img {
     border-radius: 9px;
-    padding: 1rem 4rem 12rem 2rem;
+    padding: 1rem 4rem 15rem 2rem;
   }
 
   .texts {
     position: absolute;
-    top: 42%;
+    top: 47%;
     left: 44%;
     transform: translate(-50%, -50%);
     background: transparent;
