@@ -15,14 +15,14 @@
 
   .texts {
     position: absolute;
-    top: 47%;
+    top: 52%;
     left: 44%;
     transform: translate(-50%, -50%);
     background: transparent;
     width: 100%;
     text-align: right;
     color: #fff;
-    padding: 5rem;
+    padding: 3rem;
     font-weight: bold;
   }
 
